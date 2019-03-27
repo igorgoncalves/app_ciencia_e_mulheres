@@ -13,13 +13,13 @@ Parse.initialize(
   '0XmIT4BJekgc8wBoouC35lziUwdJ0sieKMxy0vB9' // This is your Javascript key
 );
 
-new Parse.Object("Test", {"text" : "testing"}).save()
-	.then(function (obj) {
-		console.log("Success", obj);
-	})
-	.catch(function (e) {
-		alert("Error saving test object!" + e.message);
-	});
+// new Parse.Object("Test", {"text" : "testing"}).save()
+// 	.then(function (obj) {
+// 		console.log("Success", obj);
+// 	})
+// 	.catch(function (e) {
+// 		alert("Error saving test object!" + e.message);
+// 	});
 
 Vue.use(Vuex);
 

@@ -29,8 +29,5 @@
     -moz-box-shadow: 1px 1px 2px 2px #ccc;
     box-shadow: 1px 1px 2px 2px #ccc;
   }
-  .card .btn {
-
-  }
 
 </style>

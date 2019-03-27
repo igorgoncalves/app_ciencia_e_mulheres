@@ -58,7 +58,7 @@
     },
     beforeCreate() {
         this.$store.dispatch('fetchCollections');
-        
+
     },
 
   }

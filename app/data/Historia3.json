@@ -1661,7 +1661,7 @@
       ],
       "id": 3,
       "nome": "Marie",
-      "imagem": "~/assets/images/frida-sup.png"
+      "imagem": "~/assets/images/marie-sup.png"
     },
     {
       "cenarios": [
@@ -2410,7 +2410,7 @@
         }
       ],
       "id": 4,
-      "nome": "mileva",
-      "imagem": "~/assets/images/frida-sup.png"
+      "nome": "Mileva",
+      "imagem": "~/assets/images/mileva-sup.png"
     }
   ]

@@ -2,86 +2,37 @@
     "perfil" :
     [
         {
-            "texto": "Idade",
+            "texto": "Você é",
             "type": "options",
-            "options": ["12 a 17 anos", "18 a 25 anos", "25 anos ou mais"],
-            "others:": false
-        },
-        {
-            "texto": "Sexo",
-            "type": "options",
-            "options": ["feminino", "masculino"],
-            "others:": false
-        },
-        {
-            "texto": "Raça/Etnia",
-            "type": "options",
-            "options": ["Branco/a", "Preto/a", "Indígena", "Pardo", "Outros"],
+            "options": ["menina", "menino", "outros"],
             "others:": true
         },
         {
-            "texto": "Que motivo principal te fez escolher este curso?",
+            "texto": "Você gosta de ciência?",
             "type": "options",
-            "options": ["A concorrência na seleção do IFS é pequena", "Obteve informações sobre o curso ou indicação de alguém", "O mercado de trabalho é garantido", "Considera um curso fácil", "Outros"],
-            "others:": true
-        }
-    ],
-    "questoes-investigativas" : [
-        {
-            "id": 1,
-            "texto": "A Eletrônica é uma profissão aberta a ambos os sexos/gêneros?"
+            "options": ["Sim", "Não"],
+            "others:": false
         },
         {
-            "id": 2,
-            "texto": "Existem profissões mais adequadas para homens ou mulheres?"
+            "texto": "Já sonhou em ser cientista",
+            "type": "options",
+            "options": ["Sim", "Não", "Nunca considerei essa hipótese"],
+            "others:": false
         },
         {
-            "id": 3,
-            "texto": "Algumas disciplinas são mais fáceis para meninas ou meninos?"
+            "texto": "Como você imagina um cientista?",
+            "type": "options",
+            "options": ["Pessoas comuns com treinamento específico","Pessoa curiosa, inteligente e estudiosa","Homem, sério, desajeitado, com jaleco branco e fazendo experimentos em laboratório","Pessoa esquisita, antissocial, porém genial"],
+            "others:": false
         },
         {
-            "id": 4,
-            "texto": "Os homens têm maior facilidade com cálculos, raciocínio lógico que as mulheres?"
-        },
-        {
-            "id": 5,
-            "texto": "Em alguma situação você já considerou que houve tratamento diferente com um/a colega da sala simplesmente por ele/a ser homem ou mulher?"
-        },
-        {
-            "id": 6,
-            "texto": "Há manifestações de piadas nos comentários de colegas e professores? Piadas com dúvidas de colegas?"
-        },
-        {
-            "id": 7,
-            "texto": "Você pede para o professor/a explicar novamente quando não entende?"
-        },
-        {
-            "id": 8,
-            "texto": "As mulheres que frequentam o curso de Eletrônica tiram boas notas em matemática, física e disciplinas práticas/laboratório?"
-        },
-        {
-            "id": 9,
-            "texto": "Os homens que frequentam o curso de Eletrônica tiram boas notas em matemática, física e disciplinas práticas/laboratório?"
-        },
-        {
-            "id": 10,
-            "texto": "As mulheres que frequentam o curso de Eletrônica têm um bom desempenho em Língua Portuguesa?"
-        },
-        {
-            "id": 11,
-            "texto": "Os homens que frequentam o curso de Eletrônica têm um bom desempenho em Língua Portuguesa?"
-        },
-        {
-            "id": 12,
-            "texto": "Já pensou em desistir do curso?"
-        },
-        {
-            "id": 13,
-            "texto": "Os meninos estão mais preparados para o mercado de trabalho do que as meninas?"
-        },
-        {
-            "id": 14,
-            "texto": "As meninas estão mais preparadas para o mercado de trabalho do que os meninos?"
+            "texto": "O que você pensa de uma mulher ser cientista?",
+            "type": "options",
+            "options": ["Na ciência não há espaço para as mulheres", "A ciência precisa das mulheres", "Elas se sobrecarregariam, afinal, é preciso administrar a carreira com as tarefas domésticas e, sobretudo, a maternidade "],
+            "others:": false
         }
     ]
 }
+
+
+

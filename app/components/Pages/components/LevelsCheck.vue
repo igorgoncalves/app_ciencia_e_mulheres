@@ -1,6 +1,6 @@
 <template>
     <StackLayout  >
-        <Label :text="questionText" textWrap="true"></Label>
+        <Label  class="form-title" :text="questionText" textWrap="true"></Label>
         <StackLayout :orientation="orientation || horizontal" >
             <Button v-for="(option, index) in iOptions" :key="index" :class="{ checked: isCheckeds[index], large : orientation == 'vertical' }" textWrap="true" @tap="checkButton(index)">{{ option }}</Button>
         </StackLayout>
@@ -57,13 +57,14 @@ export default {
         color: white;
     }
     Label {
-        font-size: 14px;
-        margin: 10px 0;
+        /* margin: 10px 0; */
+        font-weight: bold;
+        font-size: 18px;
     }
     .container{
         padding: 20px;
     }
     .large {
         width: 100%;
-    }
+    }    
 </style>

@@ -1,7 +1,10 @@
 <template>
     <Page>
         <ActionBar>
-            <GridLayout width="100%" columns="auto, *">
+            <ActionItem @tap="goToHelp"
+                ios.systemIcon="9" ios.position="left"
+                android.systemIcon="ic_menu_help" android.position="actionBar" />
+            <GridLayout width="100%" columns="auto, *">                
                 <Label class="title" text="Início"  col="1"/>
             </GridLayout>
         </ActionBar>
@@ -31,17 +34,20 @@
 <script >
 
   import Game from "./Pages/Game"
+  import Help from "./Pages/Help"
   import Card from './Pages/Card'
   import MyForm from './Pages/Form'
+  import Modal  from './Pages/components/Modal';
 
   var gestures = require("tns-core-modules/ui/gestures");
 
   export default {
       props: ['notification', 'sucess'],
       components: {
-        Card
+        Card,
+        Modal
     },
-    data() {
+    data () {
       return {
         msg: 'Hello World!'
       }
@@ -54,14 +60,38 @@
                     idScenario: 0
 				},
             });
+        },
+        goToHelp () {
+            this.$navigateTo(Help);
         }
+
     },
     beforeCreate() {
         this.$store.dispatch('fetchCollections');
 
     },
-
+    mounted () {
+        if (! this.notification) return ;
+        if (this.sucess) {
+            alert({
+                title: "Sucesso!",
+                message: "Suas respostas foram salvas em nossa base, obrigado!",
+                okButtonText: "Ok"
+            }).then(() => {
+                console.log("Alert dialog closed");
+            });
+        } else {
+            alert({
+                title: "Oops!",
+                message: "Algum problema ocorreu ao salvar os dados, contate o administrador",
+                okButtonText: "Ok"
+            }).then(() => {
+                console.log("Alert dialog closed");
+            });
+        }
+    }
   }
+
 </script>
 
 <style>

@@ -1,5 +1,4 @@
 import Vue from 'nativescript-vue'
-import firebase from "./data/firebase";
 import App from './components/App'
 import Vuex from 'vuex'
 import store from './store'
@@ -27,12 +26,7 @@ Vue.use(Vuex);
 Vue.config.silent = (TNS_ENV === 'production')
 
 Vue.registerElement('RadSideDrawer', () => require('nativescript-ui-sidedrawer').RadSideDrawer)
-Vue.registerElement('CheckBox', () => require('nativescript-checkbox').CheckBox, {
-	model: {
-		prop: 'checked',
-		event: 'checkedChange'
-	}
-});
+
 
 new Vue({
   render: h => h('frame', [h(App)]),

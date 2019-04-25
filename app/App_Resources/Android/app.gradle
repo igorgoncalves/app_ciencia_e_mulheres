@@ -3,7 +3,7 @@
 android {
   defaultConfig {  
     generatedDensities = []
-    applicationId = "org.appmulheres.application"
+    applicationId = "org.scim.application"
   }
   aaptOptions {  
     additionalParameters "--no-version-vectors"  

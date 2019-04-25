@@ -3,6 +3,6 @@
     "v8Flags": "--expose_gc"
   },
   "main": "main",
-  "name": "app-mulheres",
+  "name": "scim",
   "version": "1.0.0"
 }

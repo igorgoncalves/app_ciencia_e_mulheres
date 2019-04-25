@@ -1,4 +1,4 @@
-import historiesCollection from "../../data/Historia3.json";
+import historiesCollection from "../../data/historias.json";
 
 let collections_ref;
 

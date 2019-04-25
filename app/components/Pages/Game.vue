@@ -1,9 +1,12 @@
 <template>
   <Page>
     <ActionBar>
-            <GridLayout width="100%" columns="auto, *">
-                <Label class="title" :text="history.nome"  col="1"/>
-            </GridLayout>
+      <ActionItem @tap="goToHelp"
+                ios.systemIcon="9" ios.position="left"
+                android.systemIcon="ic_menu_help" android.position="actionBar" />
+      <GridLayout width="100%" columns="auto, *">
+          <Label class="title" :text="history.nome"  col="1"/>
+      </GridLayout>
     </ActionBar>
     <StackLayout>
       <Image horizontalAlignment="center" alignSelf="center" v-show="history.imagem" :src="history.imagem"  width="100%"  height="15%" stretch="none" />
@@ -25,6 +28,7 @@
 
 <script >
 import MyForm from './Form'
+import Help from "./Help"
  export default {
     props: ["idStory", "idScenario"],
     data() {
@@ -59,6 +63,9 @@ import MyForm from './Form'
 				    },
           })
         }
+      },
+      goToHelp () {
+        this.$navigateTo(Help);
       }
     }
   }

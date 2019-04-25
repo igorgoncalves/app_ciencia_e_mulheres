@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:88183352355:android:200a9b358e04ad08",
         "android_client_info": {
-          "package_name": "org.appmulheres.application"
+          "package_name": "org.scim.application"
         }
       },
       "oauth_client": [

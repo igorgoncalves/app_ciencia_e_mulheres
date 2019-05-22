@@ -21,8 +21,9 @@
             <Label class="texto" text="A imagem de Curie que serve de plano de fundo para a sua história foi feita por Henri Manuel em 1920. A imagem está disponível no site das Bibliotecas Municipais de Paris, no endereço https://bibliotheques-specialisees.paris.fr/ark:/73873/pf0001069198." editable="false" textWrap="true" />
             <Label class="texto" text="A imagem de Mileva que serve de plano de fundo para a sua história foi feita em 1896 e está disponível no site da Wikimedia Commons, no endereço https://commons.wikimedia.org/wiki/File:Mileva_Maric.jpg." editable="false" textWrap="true" />            
           </StackLayout>
-          <Label class="title" text="Financiamento" editable="false" textWrap="true" />
+          <Label class="title" text="Financiamento" editable="false" textWrap="true" />          
           <StackLayout class="text-panel" width="100%" orientation="vertical" verticalAlignment="stretch">
+            <Image horizontalAlignment="center" alignSelf="center" src="~/assets/images/logo_ifs.png" height="20%" width="60%" stretch="aspectFill" />
             <Label class="texto" text="O jogo foi elaborado em parceria e subsídios com o Projeto de Inovação “É jogando que se aprende a viver em igualdade: construção de games” - (PIBITI/PROPEX/IFS/2017). Período de abrangência do projeto - início: 23/04/2018 – final: 23/02/2018. Destaca-se que o desenvolvimento do jogo efetuou-se concomitantemente ao desenvolvimento da pesquisa de Mestrado Profissional do Programa de Pós-Graduação em Educação Profissional e Tecnológica do Instituto Federal de Sergipe - ESTUDO DE RELAÇÕES DE GÊNERO E EDUCAÇÃO PROFISSIONAL: desconstruindo estereótipos para promover a equidade." editable="false" textWrap="true" />                        
           </StackLayout>
           <StackLayout class="text-panel" width="100%" orientation="vertical" verticalAlignment="stretch">

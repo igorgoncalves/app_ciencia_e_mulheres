@@ -48,7 +48,7 @@ export default {
         'LevelsCheck' : LevelsCheck,
         'Modal': Modal
     },
-    data() {
+    data () {
         return {
             formPerfil: formulario['perfil'],            
             resp: '',

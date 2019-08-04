@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "cenarios": [
       {
@@ -288,7 +288,6 @@
         "texto": "Começa: "
       },
       {
-        "imagem": "~/assets/images/hipatia-apedrejada.png",
         "opcoes": [
           {
             "destino": 25,
@@ -328,7 +327,6 @@
         "texto": "Antes, Hipatia: "
       },
       {
-        "imagem": "~/assets/images/hipatia-apedrejada.png",
         "opcoes": [
           {
             "destino": 30,
@@ -767,7 +765,7 @@
         "opcoes": [
           {
             "destino": 26,
-            "texto": "Pintar era a única coisa que lhe servia de consolo. Para ela pintar o que a acontecia era uma forma de deixar pra trás o sofrimento e poder seguir vivendo"
+            "texto": "Era a única coisa que lhe servia de consolo. Para ela pintar o que a acontecia era uma forma de deixar pra trás o sofrimento e poder seguir vivendo"
           },
           {
             "destino": 26,
@@ -1644,7 +1642,7 @@
           },
           {
             "destino": 46,
-            "texto": "Destacou-se como pesquisadora numa época em que esta área era dominada pelos homens. A partir do seu trabalho surgiu um enorme interesse pelos fenômenos radioativos e essa área começou a se desenvolver de fato."
+            "texto": "Destacou-se como pesquisadora numa época em que esta área era dominada pelos homens. A partir do seu trabalho que surgiu um enorme interesse pelos fenômenos radioativos e que essa área começou a se desenvolver de fato."
           }
         ],
         "texto": "Marie Curie deu a volta por cima. Sua pesquisa foi um sucesso: "

@@ -3,7 +3,7 @@
 android {
   defaultConfig {  
     generatedDensities = []
-    applicationId = "org.scim.application"
+    applicationId = "edu.ifs.ciem"
   }
   aaptOptions {  
     additionalParameters "--no-version-vectors"  

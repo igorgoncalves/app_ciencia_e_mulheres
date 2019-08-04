@@ -16,4 +16,4 @@ tns debug <platform> --bundle
 
 # Build, watch for changes and run the application
 tns run <platform> --bundle
-```# SciM 
+```# ciem 

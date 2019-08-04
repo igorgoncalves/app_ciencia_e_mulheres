@@ -1,11 +1,11 @@
 {
   "name": "app-mulheres",
   "version": "1.0.0",
-  "description": "SciM",
+  "description": "Ciem",
   "author": "",
   "license": "MIT",
   "nativescript": {
-    "id": "org.scim.application",
+    "id": "edu.ifs.ciem",
     "tns-ios": {
       "version": "5.0.0"
     },

@@ -22,7 +22,7 @@
     "nativescript-toast": "^1.4.6",
     "nativescript-ui-sidedrawer": "^4.3.0",
     "nativescript-vue": "^2.0.0",
-    "parse": "^2.2.1",
+    "parse": "^2.10.0",
     "tns-core-modules": "^5.0.2",
     "vuex": "^3.0.1"
   },
